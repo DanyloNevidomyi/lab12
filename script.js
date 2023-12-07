@@ -264,4 +264,8 @@ $(function() {
    $("#try-again").click(function() {
     location.reload();
    })
+
+   $("#back").click(function() {
+    window.location.href = "https://danylonevidomyi.github.io/individual/";
+   })
 })

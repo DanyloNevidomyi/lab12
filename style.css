@@ -25,6 +25,10 @@ html, body {
     background-color: #176B87;
 }
 
+#back {
+    font-size: 105%;
+}
+
 #hardCard {
     font-size: 110%;
 }
