@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Вивчення слів</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="icon" href="img/letter-c-png-5a3a52398ed157.292766051513771577585.jpg">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="select-div">
+            <p id="p">Оберіть рівень складності</p>
+            <select name="" id="select">
+                <option value="Easy">Легкий рівень</option>
+                <option value="Medium">Середній рівень</option>
+                <option value="Hard">Важкий рівень</option>
+            </select>
+        </div>
+
+        <button id="start">Почати</button>
+        <div id="card">
+            <div id="easyCard"></div>
+            <div id="mediumCard"></div>
+            <div id="hardCard"></div>
+        </div>
+        <div id="alert"></div>
+
+        <input type="text" id="answer" placeholder="Уведіть вашу відповідь">
+        <button id="accept">Підтвердити</button>
+
+        <div id="statistic">
+            <div id="right">Правильно: 0</div>
+            <div id="wrong">Неправильно: 0</div>
+        </div>
+
+        <button id="try-again">Почати заново</button>
+
+    </body>
+</html>
